@@ -51,6 +51,9 @@ nav {
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
   text-align: center;
+  position: sticky;
+  top: -1px;
+  background-color: white;
 }
 
 main {
@@ -60,6 +63,14 @@ main {
 body {
   background-color: #eee;
   font-family: source sans pro;
+}
+
+footer {
+  background-color: #ddd;
+  padding: 10px 30px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }
 
 .top-article-blurb {
