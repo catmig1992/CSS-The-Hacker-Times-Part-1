@@ -66,11 +66,15 @@ body {
 }
 
 footer {
-  background-color: #ddd;
-  padding: 10px 30px;
+  background-color: #eee;
+  margin: 0 auto;
+  padding: 5px 30px;
   width: 100%;
   position: fixed;
   bottom: 0;
+  font-size: small;
+  color: #777;
+  font-weight: 600;
 }
 
 .top-article-blurb {
